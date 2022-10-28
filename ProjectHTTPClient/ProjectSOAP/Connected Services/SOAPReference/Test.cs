@@ -5,7 +5,7 @@ namespace ProjectSOAP.Connected_Services.SOAPReference
     [TestClass]
     public class Test
     {
-        CountryInfoServiceSoapTypeClient SOapService = null;
+        CountryInfoServiceSoapTypeClient? SOapService = null;
 
         private List<tCountryCodeAndName> CountryList(CountryInfoServiceSoapTypeClient service)
         {
